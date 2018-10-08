@@ -52,6 +52,7 @@ class App extends Component {
             id={card.id}
             key={card.id}
             image={card.image}
+            name={card.name}
           />
         ))}
       </Wrapper>
